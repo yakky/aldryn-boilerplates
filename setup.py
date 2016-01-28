@@ -11,7 +11,6 @@ py26 = (2, 7, 0) > sys.version_info >= (2, 6, 0)
 REQUIREMENTS = [
     'Django>=1.5,<1.9.999',
     'YURL>=0.13',
-    'django-appconf',
 ]
 
 if py26:

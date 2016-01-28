@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import django.contrib.staticfiles.finders
 import django.contrib.staticfiles.storage
-from .conf import settings
+from django.conf import settings
 
 try:
     from collections import OrderedDict

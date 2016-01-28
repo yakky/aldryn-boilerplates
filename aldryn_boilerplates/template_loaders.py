@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from .conf import settings
+from django.conf import settings
 import django.template.loaders.app_directories
 from django.core.exceptions import ImproperlyConfigured
 try:
